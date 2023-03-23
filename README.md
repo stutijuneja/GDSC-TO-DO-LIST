@@ -72,8 +72,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 TODO LIST
 
-
-I made this ToDo list using react. User can add tasks, delete tasks, mark tasks as completed and mark as important.
+Hey, I'm Stuti a second year BTech student.
+I made this ToDo list using react so that users easily manage and organize their daily tasks. User can add tasks, delete tasks, mark tasks as completed and mark as important.
 The user can also change the display to dark mode.
 ## Screenshots
 
