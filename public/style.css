@@ -1,0 +1,148 @@
+html {
+  min-height: 100%;
+}
+body {
+  background: var(--primary-color);
+  height: 100%;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+:root {
+  --primary-color: linear-gradient(
+      to bottom right,
+      rgb(255, 234, 178),
+      rgba(224, 98, 115, 0.5)
+    )
+    fixed;
+
+  --secondary-color: rgb(228, 127, 169);
+  --tertiary-color: rgba(17, 17, 17, 0.699);
+}
+
+.dark-theme {
+  --primary-color: linear-gradient(to bottom right, #58391c, #4d4d4d) fixed;
+
+  --secondary-color: rgba(20, 76, 90, 0.945);
+  --tertiary-color: white;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.col-md-6 {
+  padding-right: 0 !important;
+}
+
+.tList {
+  text-align: center;
+  background-color: white;
+  width: 45%;
+  height: 10%;
+  margin: auto;
+  position: relative;
+  margin-top: 60px;
+  border-radius: 8px;
+}
+
+.fa-solid {
+  padding: 10px;
+}
+
+h1 {
+  margin-top: 100px;
+  font-family: "Alkatra", cursive;
+  font-weight: 700;
+  font-size: 50px;
+  color: var(--tertiary-color);
+  text-align: center;
+}
+
+span {
+  text-align: center;
+  font-size: 24px;
+  padding: 5px;
+  color: var(--secondary-color);
+  font-family: "Alkatra", cursive;
+  left: 82px;
+}
+.icons {
+  position: absolute;
+  right: 0;
+  size: 8px;
+  top: 0;
+}
+
+.float-container {
+  width: inherit;
+  height: 390px;
+  margin-top: 20px;
+  padding: 0;
+}
+
+.inputArea {
+  background-color: white;
+  width: 38%;
+  height: 390px;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+}
+
+.settings {
+  margin-top: 160px;
+}
+
+.menu {
+  color: var(--tertiary-color);
+}
+
+.add-element {
+  background-color: rgba(128, 128, 128, 0.507);
+  width: 95%;
+  left: 15px;
+  position: absolute;
+
+  bottom: 10px;
+  border-radius: 8px;
+}
+
+.icons2 {
+  right: 0;
+  color: rgb(56, 12, 12);
+  position: absolute;
+  bottom: 10px;
+}
+
+#inp {
+  height: 35px;
+  border: none;
+}
+
+.form-floating {
+  height: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.fa-trash {
+  position: absolute;
+  right: 0;
+}
+
+ol {
+  color: rgb(53, 45, 31);
+  margin-top: 8px;
+  padding-left: 50px;
+  text-align: left;
+}
+
+.list-time {
+  font-size: 13px;
+}
